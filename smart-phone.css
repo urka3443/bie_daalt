@@ -1,0 +1,37 @@
+#home{
+    margin: 0;
+    padding: 0;
+}
+#home .home-content{
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#home .home-content img{
+    display: none;
+}
+#home .home-content a{
+    display: block;
+    color: white;
+    margin: 0 ;
+    text-align: justify;
+}
+#information .article-container{
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;   
+}
+#main-footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 1.5rem;
+}
+#main-footer .footer-container div:last-child{
+    display: grid;
+    grid-column: 1;
+    text-align: center;
+    border-color: #444;
+}
+#footer .footer-container p{
+    text-align: justify;
+}
