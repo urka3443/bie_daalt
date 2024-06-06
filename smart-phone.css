@@ -1,12 +1,23 @@
+#main-nav{
+    position: sticky;
+    overflow: auto;
+    z-index: 999;
+    top: 0;
+}
 #home{
     margin: 0;
     padding: 0;
 }
-#home .home-content{
-    z-index: 1;
+#home .home-container{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin-top: 0;
+    height: 50vh;
+}
+#home .home-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    align-items: start;
+    
 }
 #home .home-content img{
     display: none;
@@ -15,8 +26,8 @@
     display: block;
     color: white;
     margin: 0 ;
-    text-align: justify;
 }
+
 #information .article-container{
     display: grid;    
     grid-template-columns: repeat(1, 1fr);
